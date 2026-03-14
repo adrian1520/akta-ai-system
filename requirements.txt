@@ -1,0 +1,10 @@
+pymupdf
+pdfminer.six
+pytesseract
+opencv-python
+numpy
+pandas
+networkx
+pyaml
+fastapi
+uvicorn
