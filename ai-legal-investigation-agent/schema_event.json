@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Legal Case Event",
+  "type": "object",
+  "properties": {
+    "timestamp": { "type": "string" },
+    "event": { "type": "string" },
+    "actor": { "type": "string" },
+    "source": { "type": "string" },
+    "legal_basis": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "required": ["timestamp","event"]
+}
