@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Legal Case Document",
+  "type": "object",
+  "properties": {
+    "case": { "type": "string" },
+    "type": { "type": "string" },
+    "date": { "type": "string" },
+    "actor": { "type": "string" },
+    "topic": { "type": "string" },
+    "fragment": { "type": "string" },
+    "legal_references": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "required": ["case", "type", "fragment"]
+}
