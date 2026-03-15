@@ -1,0 +1,7 @@
+python-dateutil
+loguru
+pdfminer
+machinereading
+python-levenshtein
+opencv-python
+pytessaract
